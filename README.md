@@ -33,3 +33,22 @@ Unix/MacOS:
 ```
 python -m venv myworld
 ```
+
+This will set up a virtual environment, then create a folder named "myworld" with subfolders and files, that look like this:
+```
+myworld
+  Include
+  Lib
+  Scripts
+  pyvenv.cfg
+```
+
+To activate the environment, type this command:
+Windows
+```
+myworld\Scripts\activate.bat
+```
+Unix/MacOS:
+```
+(myworld) ... $
+```
