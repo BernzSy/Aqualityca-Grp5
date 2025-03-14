@@ -65,3 +65,42 @@ Unix/MacOS:
 (myworld) ... $
 ```
 
+### Install Django
+Make sure that you have already downloaded the python with the `pip`, since it is important for the Django for installation. To know if you have it, type the command:
+```
+pip --version
+```
+
+Using the `pip` to install the Django, type the command:
+
+Windows:
+```
+py -m pip install Django
+```
+Unix/MacOS:
+```
+python -m pip install Django
+```
+
+Result:
+```
+Collecting Django
+  Downloading Django-4.0.3-py3-none-any.whl (8.0 MB)
+      |████████████████████████████████| 8.0 MB 2.2 MB/s
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.2-py3-none-any.whl (42 kB)
+Collecting asgiref<4,>=3.4.1
+  Downloading asgiref-3.5.0-py3-none-any.whl (22 kB)
+Collecting tzdata; sys_platform == "win32"
+  Downloading tzdata-2021.5-py2.py3-none-any.whl (339 kB)
+      |████████████████████████████████| 339 kB 6.4 MB/s
+Installing collected packages: sqlparse, asgiref, tzdata, Django
+Successfully installed Django-4.0.3 asgiref-3.5.0 sqlparse-0.4.2 tzdata-2021.5
+WARNING: You are using pip version 20.2.3; however, version 22.3 is available.
+You should consider upgrading via the 'C:\Users\Your Name\myworld\Scripts\python.exe -m pip install --upgrade pip' command.
+```
+
+After installing, check the version of Django that you have by typing this command:
+```
+django-admin --version
+```
