@@ -14,4 +14,4 @@ Django requires Python for the Project.
 If you have already Python to the system, check the version of Python by running this command:
 >python --version
 
-If you haven't installed Python:
+If you haven't installed it, you can download it free [Python](https://www.python.org/).
