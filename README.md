@@ -18,7 +18,6 @@ python --version
 
 If Python has not been installed yet, follow the appropriate installation steps to proceed with the setup. Check guidelines here: [Python](https://www.python.org/).
 
-
 ### Create Virtual Environment For Django
 It is highly recommended to set up a dedicated virtual environment for each Django project to maintain dependency isolation and prevent conflicts between different projects. One common tool for managing virtual environments is `venv`, which comes pre-installed with Python.
 
@@ -65,7 +64,6 @@ Unix/MacOS:
 ```
 (myworld) ... $
 ```
-
 
 ### Install Django
 Make sure that you have already downloaded the python with the `pip`, since it is important for the Django for installation. To know if you have it, type the command:
