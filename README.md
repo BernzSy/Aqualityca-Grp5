@@ -59,7 +59,6 @@ Once you have navigated to the correct directory, you can start the Django devel
 ```
 py manage.py runserver
 ```
-If you do not have PIP installed, you can download and install it from this page:
 
 Result:
 ```
