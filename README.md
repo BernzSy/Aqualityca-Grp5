@@ -55,16 +55,7 @@ django-admin --version
 <br>
 
 ### Run the Django Project
-Run the `aqualityca` project, as the next step is to ensure that you are working in the correct directory where you want to store your project files. Organizing your file system properly is essential for maintaining a structured and manageable development workflow.
-
-Before proceeding, make sure you have already created and activated a virtual environment to keep your Django project isolated from other projects and prevent potential dependency conflicts. For this tutorial, we will be working within the myworld folder, which serves as our designated virtual environment.
-
-Now, using the command prompt or terminal, navigate to the directory where you intend to store your Django project. You need to ensure that you are inside that folder before executing any Django-related commands. Once you have confirmed that you are in the correct location, you can proceed by running the following command in the command prompt:
-```
-django-admin startproject aqualityca
-```
-
-Now that you have successfully created your Django project, the next step is to run the development server and view your project in a web browser. Django comes with a built-in lightweight web server that allows you to test your application locally before deploying it to a production environment.
+Now that you have successfully downloaded the Aqualityca project, the next step is to run the development server and view your project in a web browser. Django comes with a built-in lightweight web server that allows you to test your application locally before deploying it to a production environment.
 
 To begin, you need to navigate to the root directory of your newly created Django project. In this case, since the project is named my_tennis_club, you should ensure that you are inside the `/aqualityca` folder before executing any commands. This folder contains essential files, including the Django settings, URL configurations, and manage.py script, which is used to manage various aspects of your Django project.
 
