@@ -44,6 +44,7 @@ myworld
 ```
 
 To activate the environment, type this command:
+
 Windows
 ```
 myworld\Scripts\activate.bat
@@ -54,6 +55,7 @@ source myworld/bin/activate
 ```
 
 Once the environment was set and activated, you will see the result in command prompt:
+
 Windows:
 ```
 (myworld) C:\Users\Your Name>
