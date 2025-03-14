@@ -50,5 +50,16 @@ myworld\Scripts\activate.bat
 ```
 Unix/MacOS:
 ```
+source myworld/bin/activate
+```
+
+Once the environment was set and activated, you will see the result in command prompt:
+Windows:
+```
+(myworld) C:\Users\Your Name>
+```
+Unix/MacOS:
+```
 (myworld) ... $
 ```
+
