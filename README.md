@@ -107,3 +107,41 @@ After installing, check the version of Django that you have by typing this comma
 ```
 django-admin --version
 ```
+
+<br>
+<br>
+
+### Run the Django Project
+After deciding on a suitable and meaningful name for your Django project, such as `aqualityca`, the next step is to ensure that you are working in the correct directory where you want to store your project files. Organizing your file system properly is essential for maintaining a structured and manageable development workflow.
+
+Before proceeding, make sure you have already created and activated a virtual environment to keep your Django project isolated from other projects and prevent potential dependency conflicts. For this tutorial, we will be working within the myworld folder, which serves as our designated virtual environment.
+
+Now, using the command prompt or terminal, navigate to the directory where you intend to store your Django project. If you are using the `myworld` folder as your workspace, you need to ensure that you are inside that folder before executing any Django-related commands. Once you have confirmed that you are in the correct location, you can proceed by running the following command in the command prompt:
+```
+django-admin startproject aqualityca
+```
+
+Now that you have successfully created your Django project, the next step is to run the development server and view your project in a web browser. Django comes with a built-in lightweight web server that allows you to test your application locally before deploying it to a production environment.
+
+To begin, you need to navigate to the root directory of your newly created Django project. In this case, since the project is named my_tennis_club, you should ensure that you are inside the `/aqualityca` folder before executing any commands. This folder contains essential files, including the Django settings, URL configurations, and manage.py script, which is used to manage various aspects of your Django project.
+
+Once you have navigated to the correct directory, you can start the Django development server by running the following command in the command prompt:
+```
+py manage.py runserver
+```
+
+Result:
+```
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+October 27, 2022 - 13:03:14
+Django version 4.1.2, using settings 'my_tennis_club.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+```
+Open a new browser window and type 127.0.0.1:8000 in the address bar or click the local server if you are running the terminal in VsCode that will take you automatical open to the new browser.
