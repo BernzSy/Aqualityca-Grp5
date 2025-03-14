@@ -6,7 +6,7 @@ In this project, we have made the decision to use Django as the framework for ma
 
 In addition, Django's migration system simplifies database schema changes, ensuring that any updates or modifications to the data structure are handled seamlessly. By using Django's powerful and efficient database handling capabilities, we can ensure that our project maintains data integrity, security, and performance while reducing the complexity of database management.
 
-For reference, [Django]([https://pages.github.com/](https://www.w3schools.com/django/django_getstarted.php))
+For reference, [Django](https://www.w3schools.com/django/django_getstarted.php)
 
 ### Install Python
 Django requires Python for the Project.
