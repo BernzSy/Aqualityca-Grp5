@@ -12,13 +12,7 @@ Let's get started in [Django](https://www.w3schools.com/django/django_getstarted
 <br>
 
 ### Install Django
-Make sure that you have already downloaded the python with the `pip`, since it is important for the Django for installation. To know if you have it, type the command:
-```
-pip --version
-```
-
-Using the `pip` to install the Django, type the command:
-
+Install the Django, since it would be needed to run the aqualitycal project by typing this command:
 Windows:
 ```
 py -m pip install Django
@@ -46,7 +40,7 @@ WARNING: You are using pip version 20.2.3; however, version 22.3 is available.
 You should consider upgrading via the 'C:\Users\Your Name\myworld\Scripts\python.exe -m pip install --upgrade pip' command.
 ```
 
-After installing, check the version of Django that you have by typing this command:
+After installing, check the version of Django by typing this command:
 ```
 django-admin --version
 ```
@@ -55,9 +49,11 @@ django-admin --version
 <br>
 
 ### Run the Django Project
-Now that you have successfully downloaded the Aqualityca project, the next step is to run the development server and view your project in a web browser. Django comes with a built-in lightweight web server that allows you to test your application locally before deploying it to a production environment.
+After successfully installing Django, the next step is to run the Aqualityca project. However, before doing so, you need to download the necessary RAR file containing the project's essential files. This compressed file includes important components such as the project’s source code, dependencies, and configurations required to run the application smoothly.
 
-To begin, you need to navigate to the root directory of your newly created Django project. In this case, since the project is named my_tennis_club, you should ensure that you are inside the `/aqualityca` folder before executing any commands. This folder contains essential files, including the Django settings, URL configurations, and manage.py script, which is used to manage various aspects of your Django project.
+Now that you have successfully downloaded the Aqualityca project, the next step is to run the development server and view the project in a web browser. Django comes with a built-in lightweight web server that allows you to test your application locally before deploying it to a production environment.
+
+To begin, you need to navigate to the root directory of the aqualityca project. In this case, since the project is named `aqualityca`, you should ensure that you are inside the `/aqualityca` folder before executing any commands. This folder contains essential files, including the Django settings, URL configurations, and manage.py script, which is used to manage various aspects of the Django project.
 
 Once you have navigated to the correct directory, you can start the Django development server by running the following command in the command prompt:
 ```
