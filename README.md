@@ -55,11 +55,11 @@ django-admin --version
 <br>
 
 ### Run the Django Project
-After deciding on a suitable and meaningful name for your Django project, such as `aqualityca`, the next step is to ensure that you are working in the correct directory where you want to store your project files. Organizing your file system properly is essential for maintaining a structured and manageable development workflow.
+Run the `aqualityca` project, as the next step is to ensure that you are working in the correct directory where you want to store your project files. Organizing your file system properly is essential for maintaining a structured and manageable development workflow.
 
 Before proceeding, make sure you have already created and activated a virtual environment to keep your Django project isolated from other projects and prevent potential dependency conflicts. For this tutorial, we will be working within the myworld folder, which serves as our designated virtual environment.
 
-Now, using the command prompt or terminal, navigate to the directory where you intend to store your Django project. If you are using the `myworld` folder as your workspace, you need to ensure that you are inside that folder before executing any Django-related commands. Once you have confirmed that you are in the correct location, you can proceed by running the following command in the command prompt:
+Now, using the command prompt or terminal, navigate to the directory where you intend to store your Django project. You need to ensure that you are inside that folder before executing any Django-related commands. Once you have confirmed that you are in the correct location, you can proceed by running the following command in the command prompt:
 ```
 django-admin startproject aqualityca
 ```
