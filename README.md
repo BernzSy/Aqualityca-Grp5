@@ -10,63 +10,6 @@ In addition, Django's migration system simplifies database schema changes, ensur
 
 Let's get started in [Django](https://www.w3schools.com/django/django_getstarted.php)!
 <br>
-### Install Python
-To set up the application in a local environment, Django requires Python. If Python is already installed, users can check the version by running the command:
-```
-python --version
-```
-
-If Python has not been installed yet, follow the appropriate installation steps to proceed with the setup. Check guidelines here: [Python](https://www.python.org/).
-<br>
-<br>
-### Create Virtual Environment For Django
-It is highly recommended to set up a dedicated virtual environment for each Django project to maintain dependency isolation and prevent conflicts between different projects. One common tool for managing virtual environments is `venv`, which comes pre-installed with Python.
-
-You can choose any name for your virtual environment based on your preference. In this tutorial, we will name it `myworld`.
-
-Before creating the virtual environment, ensure that you navigate to the desired directory where you want to set up your Django project. Once you are in the correct location, enter the following command in the command prompt:
-
-Windows:
-```
-py -m venv myworld
-```
-Unix/MacOS:
-```
-python -m venv myworld
-```
-
-This will set up a virtual environment, then create a folder named "myworld" with subfolders and files, that look like this:
-```
-myworld
-  Include
-  Lib
-  Scripts
-  pyvenv.cfg
-```
-
-To activate the environment, type this command:
-
-Windows
-```
-myworld\Scripts\activate.bat
-```
-Unix/MacOS:
-```
-source myworld/bin/activate
-```
-<br>
-Once the environment was set and activated, you will see the result in command prompt:
-
-Windows:
-```
-(myworld) C:\Users\Your Name>
-```
-Unix/MacOS:
-```
-(myworld) ... $
-```
-<br>
-<br>
 
 ### Install Django
 Make sure that you have already downloaded the python with the `pip`, since it is important for the Django for installation. To know if you have it, type the command:
@@ -129,6 +72,7 @@ Once you have navigated to the correct directory, you can start the Django devel
 ```
 py manage.py runserver
 ```
+If you do not have PIP installed, you can download and install it from this page:
 
 Result:
 ```
@@ -144,4 +88,4 @@ Django version 4.1.2, using settings 'my_tennis_club.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
-Open a new browser window and type 127.0.0.1:8000 in the address bar or click the local server if you are running the terminal in VsCode that will take you automatical open to the new browser.
+Open a new browser window and type 127.0.0.1:8000 in the address bar or click the local server if you are running the terminal in VsCode that will take you automatically open to the new browser.
