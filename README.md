@@ -21,6 +21,10 @@ If you haven't installed it, you can download it for free [Python](https://www.p
 ### Create Virtual Environment For Django
 It is highly recommended to set up a dedicated virtual environment for each Django project to maintain dependency isolation and prevent conflicts between different projects. One common tool for managing virtual environments is `venv`, which comes pre-installed with Python.
 
+You can choose any name for your virtual environment based on your preference. In this tutorial, we will name it `myworld`.
+
+Before creating the virtual environment, ensure that you navigate to the desired directory where you want to set up your Django project. Once you are in the correct location, enter the following command in the command prompt:
+
 Windows:
 ```
 py -m venv myworld
