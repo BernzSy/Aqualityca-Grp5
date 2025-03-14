@@ -23,9 +23,9 @@ It is highly recommended to set up a dedicated virtual environment for each Djan
 
 Windows:
 ```
-> py -m venv myworld
+py -m venv myworld
 ```
 Unix/MacOS:
 ```
-> python -m venv myworld
+python -m venv myworld
 ```
