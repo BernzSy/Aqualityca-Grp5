@@ -84,7 +84,7 @@ Unix/MacOS:
 ```
 python -m pip install Django
 ```
-<br>
+
 Result:
 ```
 Collecting Django
