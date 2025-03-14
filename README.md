@@ -12,16 +12,20 @@ Let's get started in [Django](https://www.w3schools.com/django/django_getstarted
 Django requires Python for the Project.
 
 If you have already Python to the system, check the version of Python by running this command:
->python --version
+```
+python --version
+```
 
 If you haven't installed it, you can download it for free [Python](https://www.python.org/).
 
 ### Create Virtual Environment For Django
 It is highly recommended to set up a dedicated virtual environment for each Django project to maintain dependency isolation and prevent conflicts between different projects. One common tool for managing virtual environments is `venv`, which comes pre-installed with Python.
 
-```
 Windows:
+```
 > py -m venv myworld
+```
 Unix/MacOS:
+```
 > python -m venv myworld
 ```
