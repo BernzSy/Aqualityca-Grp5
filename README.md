@@ -13,6 +13,7 @@ Let's get started in [Django](https://www.w3schools.com/django/django_getstarted
 
 ### Install Django
 Install the Django, since it would be needed to run the aqualitycal project by typing this command:
+
 Windows:
 ```
 py -m pip install Django
